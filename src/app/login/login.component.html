@@ -1,1 +1,7 @@
-<div class="login-bg"></div>
+<div class="login-bg">
+  <div class="screen" #screen>{{ disVal }}</div>
+  <div class="panel">
+    <button (click)="valAdd(screen.innerText)">+</button>
+    <button (click)="valDec(screen.innerText)">-</button>
+  </div>
+</div>
