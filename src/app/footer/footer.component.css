@@ -1,0 +1,17 @@
+.foot-bg {
+  background-color: blueviolet;
+  min-height: 40vh;
+}
+.foot-head {
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0px 5px 10px black;
+  font-size: 30px;
+  font-weight: 900;
+}
+.foot-h-t {
+  padding-top: 4px;
+  letter-spacing: 2px;
+}

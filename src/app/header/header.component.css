@@ -1,0 +1,83 @@
+.head-bg {
+  background-color: darkslateblue;
+  color: bisque;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bl-1 {
+  min-width: 20%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bl-2 {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bl-3 {
+  min-width: 20%;
+  height: 80%;
+}
+.b-1 {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 10%;
+}
+.logo > img {
+  height: 100%;
+}
+.name {
+  width: 80%;
+  color: azure;
+  font-size: 25px;
+  font-family: "Lucida Grande";
+  font-weight: 900;
+  letter-spacing: 4px;
+  text-shadow: 0px 2px 1px black;
+}
+.lg-1 {
+  width: 15%;
+  min-height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa {
+  font-size: 30px;
+  text-shadow: 0px 5px 10px black;
+}
+.fa-bell {
+  color: greenyellow;
+}
+.fa-odnoklassniki {
+  color: darkgoldenrod;
+}
+.fa-shopping-cart {
+  color: darkred;
+}
+.fa-comments {
+  color: orangered;
+}
+.bl-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-left: 2px solid azure;
+}
+.fa-sign-in {
+  color: darkslategrey;
+  rotate: 20 (deg);
+}
+.fa-map-signs {
+  color: firebrick;
+}
